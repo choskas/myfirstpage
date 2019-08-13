@@ -1,0 +1,66 @@
+/*Seleccionar la etiqueta */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+/*posicion relativa a padres y absoluta a hijos */
+#intro{
+    width: 100vw;
+    height: 25vh;
+    background-color: tomato;
+    position: relative;
+}
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    
+
+}
+
+#about{
+    width: 100vw;
+    height: 25vh;
+    background-color: papayawhip;
+    position: relative;
+}
+#fun{
+    width: 100vw;
+    height: 25vh;
+    background-color: yellow;
+    position: relative;
+}
+#contacto{
+    width: 100vw;
+    height: 25vh;
+    background-color: peru;
+    position: absolute;
+}
+
+#about h2{
+    position: relative;
+    left: 50%
+
+
+}
+
+#about p{
+    position: relative;
+    top: 80%;
+}
+
+#contacto h2 {
+    position: relative;
+    top: 50%;
+    left:50%
+}
+#contacto a{
+    position: relative;
+    top: 80%;
+    left: 50%
+}
