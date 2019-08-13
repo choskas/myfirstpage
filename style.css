@@ -19,6 +19,7 @@ h1 {
     color: white;
     position: absolute;
     left: 50%;
+    bottom: 50%;
     
 
 }
@@ -29,38 +30,61 @@ h1 {
     background-color: papayawhip;
     position: relative;
 }
+
+#about h2{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.parrafos {
+    position: absolute;
+    left: 50%;
+
+
+}
 #fun{
     width: 100vw;
     height: 25vh;
     background-color: yellow;
     position: relative;
 }
+#fun h2{
+    position: absolute;
+    left: 80%;
+}
+
+#fun p {
+    position: absolute;
+    left: 80%;
+    top:50%;
+}
+
 #contacto{
     width: 100vw;
     height: 25vh;
     background-color: peru;
-    position: absolute;
+    position: relative;
 }
 
 #about h2{
-    position: relative;
+    position: absolute;
     left: 50%
 
 
 }
 
 #about p{
-    position: relative;
-    top: 80%;
+    position: absolute;
+
 }
 
 #contacto h2 {
-    position: relative;
+    position: absolute;
     top: 50%;
     left:50%
 }
-#contacto a{
-    position: relative;
+#contacto span a{
+    position: absolute;
     top: 80%;
     left: 50%
 }
